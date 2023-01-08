@@ -1,0 +1,13 @@
+#N canvas 769 172 852 751 12;
+#X obj 169 40 metro;
+#X text 31 39 right click - help;
+#X obj 38 288 bng 20 250 50 0 empty empty empty 17 7 0 10 #dfdfdf #000000 #000000;
+#X text 32 82 copy & paste from the help patches;
+#X obj 38 258 metro 500;
+#X msg 83 142 stop;
+#X obj 37 109 bng 19 250 50 0 empty empty empty 0 -10 0 12 #fcfcfc #000000 #000000;
+#X msg 37 142 bang;
+#X connect 4 0 2 0;
+#X connect 5 0 4 0;
+#X connect 6 0 7 0;
+#X connect 7 0 4 0;

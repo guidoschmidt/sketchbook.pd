@@ -1,0 +1,10 @@
+#N canvas 1067 262 450 300 12;
+#X msg 123 130 Hello World;
+#X obj 123 176 print;
+#X obj 123 81 bng 19 250 50 0 empty empty empty 0 -10 0 12 #fcfcfc #000000 #000000;
+#X text 88 82 bng;
+#X msg 201 82 bang;
+#X text 81 35 different ways of scheduling a "bang";
+#X connect 0 0 1 0;
+#X connect 2 0 0 0;
+#X connect 4 0 0 0;
